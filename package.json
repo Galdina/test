@@ -1,0 +1,15 @@
+{
+  "name": "4game-feature-tests",
+  "description": "4game tests powered by CodeceptJS",
+  "scripts": {
+    "codeceptjs": "codeceptjs run -R mocha-multi"
+  },
+  "dependencies": {
+    "webdriverio": "3.4.0",
+    "codeceptjs": "0.4.0",
+    "webdrivercss": "git+https://git@github.com/webdriverio/webdrivercss.git#v2.0.0beta-rc1",
+    "sync-request": "^3.0.0",
+    "mocha-multi": "git+https://git@github.com/APshenkin/mocha-multi.git",
+    "mochawesome": "git+https://git@github.com/APshenkin/mochawesome.git"
+  }
+}
